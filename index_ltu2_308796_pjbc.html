@@ -1,0 +1,10 @@
+apple / 92,42,50,67,65,5,67,3,40,70,49,92,21,71,33,76,26,5,32,29,39,30,14,21,49,72
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple / true
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana
+
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const randomNumber = getRandomNumber();
+
