@@ -1,0 +1,37 @@
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const greet = name => `Hello, ${name}!`;
+false + 88
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const greet = name => `Hello, ${name}!`;
+false * 92,27,65,84,64,52
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const squareRoot = num => Math.sqrt(num);
+true / banana
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+7 / apple
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple * 68
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const isEven = num => num % 2 === 0;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+false / true
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+false - true
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+true - false
+const getUniqueValues = array => [...new Set(array)];
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi / true
+const isEven = num => num % 2 === 0;
